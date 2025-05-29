@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - SimNet</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../../static/css/User/free_phone_list.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="homepage-0">
+      <div class="headerBody">
+        <div class="navbar">
+          <div class="menu">
+            <div class="component-2">
+              <div class="nav-item">
+                <a href="homepage.html" style="text-decoration: none; color: inherit;">
+                  <div class="text">Home</div>
+                  <img class="line" src="line0.svg" />
+                </a>
+              </div>
+              <div class="nav-item2">
+                <a href="../support/faq.html" style="text-decoration: none; color: inherit;">
+                  <div class="text2">FAQ</div>
+                  <img class="line2" src="line1.svg" />
+                </a>
+              </div>
+              <div class="nav-item3">
+                <a href="../orders/api_keys.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">API</div>
+                  <img class="line3" src="line2.svg" />
+                </a>
+              </div>
+              <div class="nav-item4">
+                <a href="../support/how_to_use.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">How to buy?</div>
+                  <img class="line4" src="line3.svg" />
+                </a>
+              </div>
+              <div class="nav-item5">
+                <a href="../orders/free_phone_list.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">Free</div>
+                  <img class="line5" src="line4.svg" />
+                </a>
+              </div>
+            </div>
+            <div class="component-1">
+              <a href="../auth/login.html" class="button" style="text-decoration: none" role="button">
+                <div class="style-layer">
+                  <span class="button-text">Login</span>
+                </div>
+              </a>
+              <a href="../auth/register.html" class="button" style="text-decoration: none" role="button">
+                <div class="style-layer">
+                  <span class="button-text">Sign up</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="rectangle-1740" src="rectangle-17400.png" />
+        </div>
+
+          <div class="title">
+            <div class="rectangle-88"></div>
+            <div class="title2">Virtual Numbers for Receiving SMS Codes</div>
+            <div class="title3">
+              <span>
+                <span class="title-3-span">SMS</span>
+                <span class="title-3-span2">SimNet</span>
+              </span>
+            </div>
+          </div>
+
+        <div class="rightside">
+          <div class="phone-number-table-container">
+            <div class="table-header">
+              <h3>Available Phone Numbers</h3>
+              <div class="table-controls">
+                <div class="search-box12">
+                  <input type="text" placeholder="Search phone numbers..." class="search-input12">
+                  <i class="fas fa-search search-icon"></i>
+                </div>
+                <button class="refresh-btn">
+                  <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+              </div>
+            </div>
+
+            <div class="table-wrapper">
+              <table class="phone-number-table">
+                <thead>
+                  <tr>
+                    <th class="sortable">
+                      <div class="th-content">
+                        <span>Phone Numbers</span>
+                        <div class="sort-icons">
+                          <i class="fas fa-sort-up sort-asc" title="Sort by SMS count (high to low)"></i>
+                          <i class="fas fa-sort-down sort-desc" title="Sort by SMS count (low to high)"></i>
+                        </div>
+                      </div>
+                    </th>
+                    <th>Country</th>
+                    <th>Status</th>
+                    <th>Received Time</th>
+                    <th>Email/SMS Content</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+<tbody id="numbersTableBody">
+  <!-- Sẽ được điền bằng JavaScript -->
+           <tr>
+          <td>
+            <div class="phone-number-cell">
+              <div class="phone-number-content">
+                <i class="fas fa-phone-alt phone-icon"></i>
+                <div class="phone-details">
+                  <div class="number">${number.number}</div>
+                  <div class="sms-count">0 SMS received</div>
+                </div>
+              </div>
+              <button class="copy-btn small-copy" title="Copy phone number">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+          </td>
+          <td>
+            <div class="country-cell">
+              <img src="https://flagcdn.com/${number.country.toLowerCase()}.svg" class="country-flag">
+              <span>${getCountryName(number.country)}</span>
+            </div>
+          </td>
+          <td>
+            <div class="status-cell waiting">
+              <i class="fas fa-clock status-icon"></i>
+              <span>Available</span>
+            </div>
+          </td>
+          <td class="received-time">
+            <div class="time-ago">Just now</div>
+            <div class="exact-time">${new Date().toLocaleTimeString()}</div>
+          </td>
+          <td class="email-content">
+            No SMS yet
+          </td>
+          <td>
+            <button class="action-btn take-btn">
+              Take
+            </button>
+            <button class="action-btn copy-btn" data-content="">
+              <i class="far fa-copy"></i> Copy
+            </button>
+          </td>
+        </tr>
+</tbody>
+              </table>
+            </div>
+
+            <div class="table-footer">
+              <div class="pagination-info">
+                Showing 1-3 of 25 numbers
+              </div>
+              <div class="pagination-controls">
+                <button class="pagination-btn" disabled>
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <div class="rectangle-1737"></div> <!-- Background decoration -->
+
+      <div class="info-block">
+        <!-- Company Info Section -->
+        <div class="company-details-icon">
+          <div class="title4">
+            <span>
+              <span class="title-4-span">SMS</span>
+              <span class="title-4-span2"></span>
+              <span class="title-4-span">SimNet</span>
+            </span>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="social-media-icon">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-discord fa-2x"></i>
+            <i class="fab fa-telegram fa-2x"></i>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="address-123-654-987-877-the-bronx-ny-14568-usa">
+            <span>
+              <span class="address-123-654-987-877-the-bronx-ny-14568-usa-span">
+                Address
+                <br />
+              </span>
+              <span class="address-123-654-987-877-the-bronx-ny-14568-usa-span2">
+                +123 654 987
+                <br />
+                877 The Bronx, NY
+                <br />
+                14568, USA
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="info">
+          <div class="my-account">User Portal</div>
+          <div class="sign-in-register-order-status">
+            Sign in
+            <br />
+            Register
+            <br />
+            Service status
+          </div>
+        </div>
+
+        <div class="info2">
+          <div class="help">Support</div>
+          <div class="shipping-returns-sizing">
+            Documentation
+            <br />
+            API Reference
+            <br />
+            FAQ
+          </div>
+        </div>
+
+        <div class="info3">
+          <div class="shop">Services</div>
+          <div class="all-products-bedroom-dinning-room">
+            All Numbers
+            <br />
+            Country Coverage
+            <br />
+            Pricing
+          </div>
+        </div>
+
+        <div class="info4">
+          <div class="legal-stuff">Legal</div>
+          <div class="shipping-delivery-terms-conditions-privacy-policy">
+            Terms of Service
+            <br />
+            Acceptable Use
+            <br />
+            Privacy Policy
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  <img id="toggleSidebar" class="rectangle-1740" src="../../../static/img/logo.jpg" alt="Toggle Sidebar">
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../static/js/app.js"></script>
+</body>
+<script>
+  const toggleButton = document.getElementById('toggleSidebar');
+  const leftbar = document.querySelector('.leftbar');
+  const title = document.querySelector('.title');
+  let isHidden = false;
+
+  toggleButton.addEventListener('click', function () {
+    if (!leftbar || !title) return;
+
+    if (!isHidden) {
+      // Ẩn: trượt từ phải sang trái
+      leftbar.classList.remove('slide-in-left-to-right');
+      title.classList.remove('slide-in-left-to-right');
+
+      leftbar.classList.add('slide-out-right-to-left');
+      title.classList.add('slide-out-right-to-left');
+
+      setTimeout(() => {
+        leftbar.style.display = 'none';
+        title.style.display = 'none';
+        isHidden = true;
+      }, 500);
+    } else {
+      // Hiện lại: trượt từ trái sang phải
+      leftbar.style.display = 'block';
+      title.style.display = 'block';
+
+      leftbar.classList.remove('slide-out-right-to-left');
+      title.classList.remove('slide-out-right-to-left');
+
+      leftbar.classList.add('slide-in-left-to-right');
+      title.classList.add('slide-in-left-to-right');
+
+      isHidden = false;
+    }
+  });
+</script>
+
+
+<script>
+  // JavaScript for interactive functionality
+  document.addEventListener('DOMContentLoaded', function () {
+    // Copy buttons functionality
+    document.querySelectorAll('.copy-btn').forEach(button => {
+      button.addEventListener('click', function () {
+        const content = this.getAttribute('data-content') ||
+          this.closest('.phone-number-cell').querySelector('.number').textContent;
+
+        navigator.clipboard.writeText(content.trim()).then(() => {
+          // Show temporary feedback
+          const originalContent = this.innerHTML;
+          this.innerHTML = '<i class="fas fa-check"></i> Copied';
+          this.style.backgroundColor = '#28a745';
+
+          setTimeout(() => {
+            this.innerHTML = originalContent;
+            this.style.backgroundColor = '';
+          }, 2000);
+        });
+      });
+    });
+
+    // Sort functionality
+    document.querySelectorAll('.sortable').forEach(header => {
+      header.addEventListener('click', function () {
+        const isAsc = this.querySelector('.sort-asc').classList.contains('active');
+        const isDesc = this.querySelector('.sort-desc').classList.contains('active');
+
+        // Reset all sort icons
+        document.querySelectorAll('.sort-asc, .sort-desc').forEach(icon => {
+          icon.classList.remove('active');
+        });
+
+        // Toggle sort direction
+        if (!isAsc && !isDesc) {
+          this.querySelector('.sort-asc').classList.add('active');
+        } else if (isAsc) {
+          this.querySelector('.sort-desc').classList.add('active');
+        }
+
+        // In a real app, you would sort the table data here
+        console.log('Sorting by', this.textContent.trim(),
+          isAsc ? 'descending' : 'ascending');
+      });
+    });
+
+    // Refresh button
+    document.querySelector('.refresh-btn').addEventListener('click', function () {
+      // In a real app, this would reload the data
+      console.log('Refreshing data...');
+      this.querySelector('i').classList.add('fa-spin');
+      setTimeout(() => {
+        this.querySelector('i').classList.remove('fa-spin');
+      }, 1000);
+    });
+
+    // Cập nhật thời gian động (nếu cần)
+    function updateRelativeTimes() {
+      document.querySelectorAll('.received-time').forEach(cell => {
+        // Trong ứng dụng thực, bạn sẽ sử dụng thời gian thực từ dữ liệu
+        // Đây chỉ là ví dụ minh họa
+        const timeAgo = cell.querySelector('.time-ago');
+        if (timeAgo.textContent.includes('minute')) {
+          // Giả sử tăng thời gian lên 1 phút mỗi lần refresh
+          const minutes = parseInt(timeAgo.textContent) + 1;
+          timeAgo.textContent = `${minutes} minutes ago`;
+        }
+      });
+    }
+
+    // Gọi hàm này khi refresh dữ liệu
+    document.querySelector('.refresh-btn').addEventListener('click', updateRelativeTimes);
+  });
+</script>
+
+<script>
+    // gọi API FastAPI khi nhấn nút "Take":
+  // Thêm vào phần script cuối file HTML
+document.addEventListener('DOMContentLoaded', function() {
+  // Xử lý nút Take
+  document.querySelectorAll('.take-btn').forEach(button => {
+    button.addEventListener('click', async function() {
+      const row = this.closest('tr');
+      const phoneNumber = row.querySelector('.number').textContent.trim();
+      const country = row.querySelector('.country-cell span').textContent.trim();
+      
+      // Hiển thị trạng thái loading
+      this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Taking...';
+      this.disabled = true;
+
+      try {
+        // Gọi API FastAPI để lấy số (giả sử token đã được lưu)
+        const token = localStorage.getItem('userToken'); // Lấy token từ localStorage
+        const quhao = phoneNumber.substring(1, 4); // Giả sử 3 số đầu là mã vùng
+        
+        // 1. Gọi API get_number
+        const getNumberResponse = await fetch(`http://your-fastapi-server/api/get_number?token=${token}&quhao=${quhao}&number=${phoneNumber}`);
+        const numberData = await getNumberResponse.json();
+        
+        if (numberData.errno !== 0) throw new Error(numberData.errmsg);
+
+        // 2. Gọi API get_code sau 5 giây (đợi SMS đến)
+        setTimeout(async () => {
+          const getCodeResponse = await fetch(`http://your-fastapi-server/api/get_code?token=${token}&qhid=${numberData.qhid}`);
+          const codeData = await getCodeResponse.json();
+          
+          if (codeData.errno === 0) {
+            // Cập nhật nội dung SMS vào table
+            row.querySelector('.email-content').textContent = `Your code: ${codeData.ret.cnt}`;
+            
+            // Tự động copy mã nếu có nút Copy
+            const copyBtn = row.querySelector('.copy-btn[data-content]');
+            if (copyBtn) {
+              copyBtn.setAttribute('data-content', codeData.ret.cnt);
+              copyBtn.click(); // Tự động copy mã
+            }
+          }
+          
+          // Khôi phục nút Take
+          this.innerHTML = 'Take';
+          this.disabled = false;
+        }, 5000); // Đợi 5 giây trước khi lấy mã
+
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to get SMS: ' + error.message);
+        this.innerHTML = 'Take';
+        this.disabled = false;
+      }
+    });
+  });
+});
+</script>
+
+
+<script>     // Cập nhật HTML để hiển thị số từ API Thay thế phần tbody trong table bằng code động:
+  async function loadFreeNumbers() {
+  try {
+    const token = localStorage.getItem('userToken');
+    const response = await fetch(`http://your-fastapi-server/api/free_numbers?token=${token}`);
+    const data = await response.json();
+    
+    if (data.errno === 0) {
+      const tableBody = document.getElementById('numbersTableBody');
+      tableBody.innerHTML = data.data.map(number => `
+        <tr>
+          <td>
+            <div class="phone-number-cell">
+              <div class="phone-number-content">
+                <i class="fas fa-phone-alt phone-icon"></i>
+                <div class="phone-details">
+                  <div class="number">${number.number}</div>
+                  <div class="sms-count">0 SMS received</div>
+                </div>
+              </div>
+              <button class="copy-btn small-copy" title="Copy phone number">
+                <i class="far fa-copy"></i>
+              </button>
+            </div>
+          </td>
+          <td>
+            <div class="country-cell">
+              <img src="https://flagcdn.com/${number.country.toLowerCase()}.svg" class="country-flag">
+              <span>${getCountryName(number.country)}</span>
+            </div>
+          </td>
+          <td>
+            <div class="status-cell waiting">
+              <i class="fas fa-clock status-icon"></i>
+              <span>Available</span>
+            </div>
+          </td>
+          <td class="received-time">
+            <div class="time-ago">Just now</div>
+            <div class="exact-time">${new Date().toLocaleTimeString()}</div>
+          </td>
+          <td class="email-content">
+            No SMS yet
+          </td>
+          <td>
+            <button class="action-btn take-btn">
+              Take
+            </button>
+            <button class="action-btn copy-btn" data-content="">
+              <i class="far fa-copy"></i> Copy
+            </button>
+          </td>
+        </tr>
+      `).join('');
+    }
+  } catch (error) {
+    console.error('Failed to load numbers:', error);
+  }
+}
+
+// Gọi khi trang load
+loadFreeNumbers();
+</script>
+</html>

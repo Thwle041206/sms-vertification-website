@@ -1,0 +1,2590 @@
+.recharge-his,
+.recharge-his * {
+  box-sizing: border-box;
+}
+.recharge-his {
+  height: 2064px;
+  position: relative;
+}
+.recharge-history {
+  width: 1586px;
+  height: 2064px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.purchases {
+  width: 1586px;
+  height: 2064px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.faq {
+  width: 1586px;
+  height: 2064px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+.homepage-0 {
+  width: 1586px;
+  height: 1642px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-1729 {
+  background: #e2e8e8;
+  width: 1586px;
+  height: 1642px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.view-more-courses {
+  color: #2c7575;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 25px;
+  top: 1069.5px;
+}
+.rectangle-39 {
+  border-radius: 0px;
+  width: 559px;
+  height: 1066px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  overflow: visible;
+}
+.rectangle-42 {
+  border-radius: 0px;
+  width: 526px;
+  height: 1623px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  overflow: visible;
+}
+.rectangle-87 {
+  background: #f0f4f4;
+  border-radius: 43px;
+  width: 526px;
+  height: 1376px;
+  position: absolute;
+  left: 0px;
+  top: 147px;
+}
+.rectangle-1728 {
+  background: #f0f4f4;
+  border-radius: 43px;
+  width: 526px;
+  height: 1464px;
+  position: absolute;
+  left: 2px;
+  top: 147px;
+}
+.services {
+  width: 503px;
+  height: 448px;
+  position: absolute;
+  left: 28px;
+  top: 205px;
+}
+.search-box {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 12px 56px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 457px;
+  height: 39px;
+  position: absolute;
+  left: 14px;
+  top: 49px;
+}
+.div {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.div2 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services {
+  color: rgba(18, 90, 90, 0.2);
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.name-service {
+  width: 503px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._1-select-service {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 60.24%;
+  left: 0%;
+  width: 39.76%;
+  bottom: -10.26%;
+  top: 10.26%;
+  height: 100%;
+}
+.component-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 53.88%;
+  height: 58.97%;
+  position: absolute;
+  right: 9.74%;
+  left: 36.38%;
+  bottom: 20.51%;
+  top: 20.51%;
+}
+.component-7 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 23px;
+  position: relative;
+}
+.component-8 {
+  flex-shrink: 0;
+  width: 154px;
+  height: 23px;
+  position: relative;
+}
+.sort-low-to-high {
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 11.04%;
+  left: 0%;
+  width: 88.96%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.sort-low-to-high-span {
+  color: #184b4b;
+}
+.sort-low-to-high-span2 {
+  color: #178c8c;
+}
+.vector {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.all-services {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 432px;
+  position: absolute;
+  left: 22px;
+  top: 98px;
+}
+.service {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 61px;
+  position: relative;
+}
+.add {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.price {
+  width: 33.22%;
+  height: 67.21%;
+  position: absolute;
+  right: 10.53%;
+  left: 56.25%;
+  bottom: 18.03%;
+  top: 14.75%;
+}
+._21-267-numbers {
+  color: #127418;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: lowercase;
+  position: absolute;
+  right: 31.72%;
+  left: 0%;
+  width: 68.28%;
+  bottom: 0%;
+  top: 53.66%;
+  height: 46.34%;
+}
+.from-1-90 {
+  color: #868686;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: lowercase;
+  text-decoration: line-through;
+  position: absolute;
+  right: 24.27%;
+  left: 26.26%;
+  width: 49.47%;
+  bottom: 51.22%;
+  top: 0%;
+  height: 48.78%;
+}
+.rectangle-44 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #efefef;
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.already-use-43-435 {
+  color: #868686;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 60.19%;
+  left: 12.96%;
+  width: 26.85%;
+  bottom: 16.39%;
+  top: 55.74%;
+  height: 27.87%;
+}
+.vietnam {
+  color: #060606;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  right: 50%;
+  left: 13.43%;
+  width: 36.58%;
+  bottom: 39.34%;
+  top: 14.75%;
+  height: 45.9%;
+}
+.vector2 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-22 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector3 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-222 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector4 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-223 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector5 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.show-all {
+  width: 132px;
+  height: 23px;
+  position: absolute;
+  left: 173px;
+  top: 425px;
+}
+.show-all-259 {
+  color: #178c8c;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.vector6 {
+  width: 10.71%;
+  height: 30.43%;
+  position: absolute;
+  right: -5%;
+  left: 94.29%;
+  bottom: 34.78%;
+  top: 34.78%;
+  overflow: visible;
+}
+.rectangle-1731 {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: 19px;
+  height: 1144px;
+  position: absolute;
+  left: 503px;
+  top: -85px;
+}
+.select-country {
+  width: 503px;
+  height: 448px;
+  position: absolute;
+  left: 23px;
+  top: 653px;
+}
+.select-country2 {
+  width: 503px;
+  height: 448px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.search-box2 {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 12px 56px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 457px;
+  height: 39px;
+  position: absolute;
+  left: 10px;
+  top: 43px;
+}
+.div3 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.vector7 {
+  width: 10.71%;
+  height: 30.43%;
+  position: absolute;
+  right: -5%;
+  left: 94.29%;
+  bottom: 34.78%;
+  top: 34.78%;
+  overflow: visible;
+}
+.name-service2 {
+  width: 503px;
+  height: 39px;
+  position: absolute;
+  left: 22px;
+  top: 0px;
+}
+._2-select-country {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 60.24%;
+  left: 0%;
+  width: 39.76%;
+  bottom: -10.26%;
+  top: 10.26%;
+  height: 100%;
+}
+.sort {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 53.88%;
+  height: 58.97%;
+  position: absolute;
+  right: 9.74%;
+  left: 36.38%;
+  bottom: 20.51%;
+  top: 20.51%;
+}
+.sort2 {
+  flex-shrink: 0;
+  width: 120px;
+  height: 23px;
+  position: relative;
+}
+.sort3 {
+  flex-shrink: 0;
+  width: 128px;
+  height: 23px;
+  position: relative;
+}
+.sort-alphabet {
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 11.04%;
+  left: 0%;
+  width: 88.96%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.sort-alphabet-span {
+  color: #184b4b;
+}
+.sort-alphabet-span2 {
+  color: #178c8c;
+}
+.vector8 {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 432px;
+  position: absolute;
+  left: 31px;
+  top: 105px;
+}
+.country2 {
+  flex-shrink: 0;
+  width: 432px;
+  height: 61px;
+  position: relative;
+}
+.vector9 {
+  width: 7.64%;
+  height: 47.54%;
+  position: absolute;
+  right: 88.66%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 19.67%;
+}
+.country3 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 31.71%;
+  height: 55.74%;
+  position: absolute;
+  right: 54.4%;
+  left: 13.89%;
+  bottom: 24.59%;
+  top: 19.67%;
+}
+.country-flags-asia-japan {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.afghanistan {
+  color: var(--colour-of-country-names, #000000);
+  text-align: left;
+  font-family: var(
+    --country-font-type-and-size-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--country-font-type-and-size-font-size, 14px);
+  font-weight: var(--country-font-type-and-size-font-weight, 400);
+  position: relative;
+}
+.vector10 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.have {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.86%;
+  left: 87.27%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.add2 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan2 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector11 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.add3 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan3 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector12 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.add4 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan4 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector13 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.my-project {
+  width: 472px;
+  height: 443px;
+  position: absolute;
+  left: 28px;
+  top: 1112px;
+}
+.select-project {
+  width: 503px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.search-box3 {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 12px 56px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 447px;
+  height: 41px;
+  position: absolute;
+  left: 16px;
+  top: 49px;
+}
+.div4 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.show-all2 {
+  width: 132px;
+  height: 23px;
+  position: absolute;
+  left: 176px;
+  top: 427px;
+}
+.name-service3 {
+  width: 473px;
+  height: 39px;
+  position: absolute;
+  left: 12px;
+  top: 0px;
+}
+.sort-alphabet-span {
+  color: #184b4b;
+}
+.sort-alphabet-span2 {
+  color: #178c8c;
+}
+.vector14 {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 220px;
+  position: absolute;
+  left: 12px;
+  top: 173px;
+}
+.component-224 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 447px;
+  position: absolute;
+  left: 16px;
+  top: 100px;
+}
+.add-project {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 52px;
+  position: relative;
+}
+.form {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 316px;
+  height: 52px;
+  position: relative;
+}
+.text-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.my-project2 {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.keyboard-arrow-up {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button {
+  background: #178c8c;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 14px 27px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 119px;
+  height: 51px;
+  position: relative;
+}
+.caption {
+  color: var(--neutral-white, #ffffff);
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+}
+.form2 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 52px;
+  position: relative;
+}
+.specify-area-code {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.keyboard-arrow-up2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.collection-method {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 436px;
+  position: absolute;
+  left: 25px;
+  top: 250px;
+}
+.collection-method2 {
+  color: #000000;
+  text-align: left;
+  font-family: "DmSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 22px;
+}
+.collection-method3 {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 26px;
+  position: relative;
+}
+.radio {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 152px;
+  height: 26px;
+  position: relative;
+}
+.icon {
+  background: var(--white, #ffffff);
+  border-radius: 999px;
+  border-style: solid;
+  border-color: var(--primary, #3b71ca);
+  border-width: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.ellipse-4 {
+  background: var(--primary, #3b71ca);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+.checked-radio {
+  color: var(--body-text-color, #4f4f4f);
+  text-align: left;
+  font-family: var(
+    --paragraph-standard-font-family,
+    "Roboto-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-standard-font-size, 16px);
+  line-height: var(--paragraph-standard-line-height, 160%);
+  font-weight: var(--paragraph-standard-font-weight, 400);
+  position: relative;
+}
+.radio2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 128px;
+  height: 26px;
+  position: relative;
+}
+.ellipse-42 {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  position: relative;
+}
+.search-box4 {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 1px;
+  padding: 12px 56px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 33px;
+  position: relative;
+}
+.enter-number-designated {
+  color: rgba(18, 90, 90, 0.2);
+  text-align: left;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.button2 {
+  background: #178c8c;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 14px 27px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 436px;
+  height: 51px;
+  position: absolute;
+  left: 25px;
+  top: 392px;
+}
+.rectangle-1730 {
+  border-radius: 0px;
+  width: 1015px;
+  height: 1501px;
+  position: absolute;
+  left: 541px;
+  top: 123px;
+  overflow: visible;
+}
+.rectangle-17312 {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 19px;
+  height: 349px;
+  position: absolute;
+  left: 531px;
+  top: 1272px;
+}
+.sms-deliver {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 90.04%;
+  left: 2.33%;
+  width: 7.63%;
+  bottom: 88.49%;
+  top: 9.93%;
+  height: 1.58%;
+}
+.component-25 {
+  width: 30px;
+  height: 31px;
+  position: absolute;
+  left: 434px;
+  top: 157px;
+}
+.rectangle-1732 {
+  background: #605f5f;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.vector-4 {
+  border-radius: 3px;
+  width: 25.93%;
+  height: 72.73%;
+  position: absolute;
+  right: 37.04%;
+  left: 37.04%;
+  bottom: 12.12%;
+  top: 15.15%;
+  overflow: visible;
+}
+.footer {
+  width: 1587px;
+  height: 425px;
+  position: absolute;
+  left: -1px;
+  top: 1642px;
+}
+.rectangle-1737 {
+  background: #000000;
+  width: 1586px;
+  height: 425px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.info-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1379px;
+  height: 279px;
+  position: absolute;
+  left: 108px;
+  top: 78px;
+}
+.company-details-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 405px;
+  position: relative;
+}
+.title {
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  position: relative;
+  width: 358px;
+  height: 37.41px;
+}
+.title-span {
+  color: #ffffff;
+}
+.title-span2 {
+  color: #fffdfd;
+}
+.social-media-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-color {
+  flex-shrink: 0;
+  width: 27px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color2 {
+  flex-shrink: 0;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color3 {
+  flex-shrink: 0;
+  width: 28px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color4 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color5 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.address-123-654-987-877-the-bronx-ny-14568-usa {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 349px;
+}
+.address-123-654-987-877-the-bronx-ny-14568-usa-span {
+  font-family: "OpenSans-Bold", sans-serif;
+  font-weight: 700;
+}
+.address-123-654-987-877-the-bronx-ny-14568-usa-span2 {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 216px;
+  position: relative;
+}
+.my-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.sign-in-register-order-status {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 229px;
+  position: relative;
+}
+.help {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  width: 66px;
+}
+.shipping-returns-sizing {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 80.22px;
+  height: 96px;
+}
+.info3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 194px;
+  position: relative;
+}
+.shop {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.all-products-bedroom-dinning-room {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 123px;
+  height: 100px;
+}
+.info4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 176px;
+  position: relative;
+}
+.legal-stuff {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  width: 102px;
+}
+.shipping-delivery-terms-conditions-privacy-policy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 169px;
+}
+.rectangle-1738 {
+  background: #d9d9d9;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 441px;
+  top: 141px;
+}
+.b-k {
+  width: 325px;
+  height: 27px;
+  position: absolute;
+  left: 590px;
+  top: 157px;
+}
+.breadcumb {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 15px);
+}
+.home-1-1 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  width: 66.67%;
+  height: 70.83%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 16.67%;
+  top: 12.5%;
+  overflow: visible;
+}
+.vector15 {
+  flex-shrink: 0;
+  width: 8.17px;
+  height: 4.08px;
+  position: relative;
+  overflow: visible;
+}
+.categories {
+  color: var(--gray-scale-gray-600, #666666);
+  text-align: left;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+.vector16 {
+  flex-shrink: 0;
+  width: 8.17px;
+  height: 4.08px;
+  position: relative;
+  overflow: visible;
+}
+.vegetables {
+  color: #178c8c;
+  text-align: left;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  position: relative;
+}
+.narbar-login {
+  width: 1586px;
+  height: 96px;
+  position: absolute;
+  left: 2px;
+  top: 8px;
+}
+.navbar {
+  background: var(--bg-white, #ffffff);
+  padding: 20px 41px 20px 100px;
+  width: 1586px;
+  height: 96px;
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  overflow: hidden;
+}
+.menu {
+  padding: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 814px;
+  position: absolute;
+  left: 610px;
+  top: 20px;
+}
+.component-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 57px;
+  height: 40px;
+  position: relative;
+}
+.text {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.nav-item2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 52px;
+  height: 40px;
+  position: relative;
+}
+.text2 {
+  color: var(--neutral-100, #121212);
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.nav-item3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 54px;
+  height: 40px;
+  position: relative;
+}
+.text3 {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.nav-item4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 137px;
+  height: 40px;
+  position: relative;
+}
+.line4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.nav-item5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 64px;
+  height: 40px;
+  position: relative;
+}
+.line5 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.component-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button3 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 2px;
+  padding: 14px 27px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 113px;
+  height: 56px;
+  position: relative;
+}
+.caption2 {
+  color: #178c8c;
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+}
+.button4 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 2px;
+  padding: 14px 27px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 114px;
+  height: 56px;
+  position: relative;
+}
+.rectangle-86 {
+  background: #3b3434;
+  width: 452px;
+  height: 154px;
+  position: absolute;
+  left: 791px;
+  top: 349px;
+}
+.rectangle-1740 {
+  width: 59px;
+  height: 65px;
+  position: absolute;
+  left: 531px;
+  top: 18px;
+  object-fit: cover;
+}
+.profile {
+  width: 51px;
+  height: 24px;
+  position: absolute;
+  left: 1431px;
+  top: 34px;
+}
+.icon-account {
+  width: 47.06%;
+  height: 100%;
+  position: absolute;
+  right: 52.94%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: hidden;
+}
+.account-2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.vector17 {
+  width: 21.57%;
+  height: 25%;
+  position: absolute;
+  right: 0%;
+  left: 78.43%;
+  bottom: 25%;
+  top: 50%;
+  overflow: visible;
+}
+.image {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1507px;
+  top: 29px;
+  object-fit: cover;
+}
+.title2 {
+  width: 526px;
+  height: 126px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.rectangle-88 {
+  background: #178c8c;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.title3 {
+  color: #fffdfd;
+  text-align: left;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 22px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  position: absolute;
+  right: 5.32%;
+  left: 48.67%;
+  width: 46.01%;
+  bottom: 35.94%;
+  top: 11.72%;
+  height: 52.34%;
+}
+.title4 {
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  position: absolute;
+  right: 26.81%;
+  left: 5.13%;
+  width: 68.06%;
+  bottom: 53.12%;
+  top: 17.19%;
+  height: 29.69%;
+}
+.title-4-span {
+  color: var(--brand-secondary, #3f4e4f);
+}
+.title-4-span2 {
+  color: #fffdfd;
+}
+.faqques {
+  width: 919px;
+  height: 917px;
+  position: absolute;
+  left: 586px;
+  top: 219px;
+}
+.rectangle-1741 {
+  background: #e3eaea;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 2px;
+  width: 915px;
+  height: 955px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.faq-ques {
+  width: 895px;
+  height: 804px;
+  position: absolute;
+  left: 39px;
+  top: 15px;
+}
+.purchases2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0.34%;
+  width: 99.66%;
+  bottom: 96.27%;
+  top: 0%;
+  height: 3.73%;
+}
+.recharge {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 59.11%;
+  left: 20.89%;
+  width: 20%;
+  bottom: 88.18%;
+  top: 8.08%;
+  height: 3.73%;
+}
+.history {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 6.82%;
+  left: 65.7%;
+  width: 27.49%;
+  bottom: 88.18%;
+  top: 8.08%;
+  height: 3.73%;
+}
+.rectangle-4170 {
+  background: #b88181;
+  width: 20.56%;
+  height: 0.25%;
+  position: absolute;
+  right: 64.47%;
+  left: 14.97%;
+  bottom: 87.94%;
+  top: 11.82%;
+}
+.connect {
+  width: 566px;
+  height: 56px;
+  position: absolute;
+  left: 28px;
+  top: 861px;
+}
+.button5 {
+  background: #4a8181;
+  border-radius: 8px;
+  padding: 14px 27px 14px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 19.96%;
+  height: 100%;
+  position: absolute;
+  right: 80.04%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.caption3 {
+  color: var(--neutral-white, #ffffff);
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+}
+.connect2 {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 73.67%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 26.33%;
+  bottom: 0%;
+  top: 0%;
+}
+.frame-225 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 1px;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 118.33px;
+  height: 56px;
+  position: relative;
+}
+.x {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.frame-226 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 1px;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 118.33px;
+  height: 56px;
+  position: relative;
+}
+.telegram {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.frame-224 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 1px;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 118.33px;
+  height: 56px;
+  position: relative;
+}
+.discord {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-392 {
+  border-radius: 0px;
+  width: 559px;
+  height: 1066px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  overflow: visible;
+}
+.rectangle-422 {
+  border-radius: 0px;
+  width: 526px;
+  height: 1623px;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  overflow: visible;
+}
+.div5 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.sort-low-to-high-span {
+  color: #184b4b;
+}
+.sort-low-to-high-span2 {
+  color: #178c8c;
+}
+.vector18 {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.add5 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector19 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-225 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector20 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-226 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector21 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.component-227 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.17%;
+  left: 87.96%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector22 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.35%;
+  left: 4.17%;
+  bottom: 34.43%;
+  top: 19.67%;
+  overflow: visible;
+}
+.vector23 {
+  width: 10.71%;
+  height: 30.43%;
+  position: absolute;
+  right: -5%;
+  left: 94.29%;
+  bottom: 34.78%;
+  top: 34.78%;
+  overflow: visible;
+}
+.div6 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.vector24 {
+  width: 10.71%;
+  height: 30.43%;
+  position: absolute;
+  right: -5%;
+  left: 94.29%;
+  bottom: 34.78%;
+  top: 34.78%;
+  overflow: visible;
+}
+.sort-alphabet-span {
+  color: #184b4b;
+}
+.sort-alphabet-span2 {
+  color: #178c8c;
+}
+.vector25 {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.country-flags-asia-japan5 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector26 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.have2 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.86%;
+  left: 87.27%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.add6 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan6 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector27 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.add7 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan7 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector28 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.add8 {
+  width: 7.87%;
+  height: 55.74%;
+  position: absolute;
+  right: 4.63%;
+  left: 87.5%;
+  bottom: 24.59%;
+  top: 19.67%;
+  overflow: visible;
+}
+.country-flags-asia-japan8 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.vector29 {
+  width: 6.48%;
+  height: 45.9%;
+  position: absolute;
+  right: 89.81%;
+  left: 3.7%;
+  bottom: 32.79%;
+  top: 21.31%;
+  overflow: visible;
+}
+.div7 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.sort-alphabet-span {
+  color: #184b4b;
+}
+.sort-alphabet-span2 {
+  color: #178c8c;
+}
+.vector30 {
+  width: 7.14%;
+  height: 26.09%;
+  position: absolute;
+  right: 0%;
+  left: 92.86%;
+  bottom: 34.78%;
+  top: 39.13%;
+  overflow: visible;
+}
+.keyboard-arrow-up3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.keyboard-arrow-up4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-17302 {
+  border-radius: 0px;
+  width: 1015px;
+  height: 1501px;
+  position: absolute;
+  left: 541px;
+  top: 123px;
+  overflow: visible;
+}
+.vector-42 {
+  border-radius: 3px;
+  width: 25.93%;
+  height: 72.73%;
+  position: absolute;
+  right: 37.04%;
+  left: 37.04%;
+  bottom: 12.12%;
+  top: 15.15%;
+  overflow: visible;
+}
+.title-span {
+  color: #ffffff;
+}
+.title-span2 {
+  color: #fffdfd;
+}
+.icon-color6 {
+  flex-shrink: 0;
+  width: 27px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color7 {
+  flex-shrink: 0;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color8 {
+  flex-shrink: 0;
+  width: 28px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color9 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.icon-color10 {
+  flex-shrink: 0;
+  width: 30px;
+  height: 27px;
+  position: relative;
+  overflow: visible;
+}
+.address-123-654-987-877-the-bronx-ny-14568-usa-span {
+  font-family: "OpenSans-Bold", sans-serif;
+  font-weight: 700;
+}
+.address-123-654-987-877-the-bronx-ny-14568-usa-span2 {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+.group2 {
+  width: 66.67%;
+  height: 70.83%;
+  position: absolute;
+  right: 16.67%;
+  left: 16.67%;
+  bottom: 16.67%;
+  top: 12.5%;
+  overflow: visible;
+}
+.vector31 {
+  flex-shrink: 0;
+  width: 8.17px;
+  height: 4.08px;
+  position: relative;
+  overflow: visible;
+}
+.vector32 {
+  flex-shrink: 0;
+  width: 8.17px;
+  height: 4.08px;
+  position: relative;
+  overflow: visible;
+}
+.line6 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.line7 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.line8 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.line9 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.line10 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 0px;
+  position: relative;
+  overflow: visible;
+}
+.account-22 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.vector33 {
+  width: 21.57%;
+  height: 25%;
+  position: absolute;
+  right: 0%;
+  left: 78.43%;
+  bottom: 25%;
+  top: 50%;
+  overflow: visible;
+}
+.title-4-span {
+  color: var(--brand-secondary, #3f4e4f);
+}
+.title-4-span2 {
+  color: #fffdfd;
+}
+.recharge2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  right: 0.11%;
+  left: 0.22%;
+  width: 99.66%;
+  bottom: 94.28%;
+  top: 1.99%;
+  height: 3.73%;
+}
+.method {
+  width: 902px;
+  height: 599px;
+  position: absolute;
+  left: -36px;
+  top: 102px;
+}
+.rectangle-6708 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #178c8c;
+  border-width: 2px;
+  width: 902px;
+  height: 599px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-6709 {
+  background: #e65101;
+  border-radius: 5px;
+  opacity: 0.3;
+  width: 399px;
+  height: 12px;
+  position: absolute;
+  left: 462px;
+  top: 84px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.method2 {
+  width: 524px;
+  height: 34px;
+  position: absolute;
+  left: 210px;
+  top: 30px;
+}
+.recharge3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  position: absolute;
+  right: 66.22%;
+  left: 0%;
+  width: 33.78%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.history2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 29px;
+  font-weight: 500;
+  position: absolute;
+  right: 0%;
+  left: 75.95%;
+  width: 24.05%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.search-box5 {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #339c9c;
+  border-width: 2px;
+  padding: 12px 56px 12px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 457px;
+  height: 39px;
+  position: absolute;
+  left: 397px;
+  top: 15px;
+}
+.div8 {
+  width: 84.38%;
+  height: 79.41%;
+  position: absolute;
+  right: 6.25%;
+  left: 9.38%;
+  bottom: 13.24%;
+  top: 7.35%;
+  overflow: visible;
+}
+.search-for-services-span {
+}
+.search-for-services-span2 {
+  text-transform: lowercase;
+}
+.x2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.telegram2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.discord2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}

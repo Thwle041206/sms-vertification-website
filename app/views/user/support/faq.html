@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - SimNet</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../../static/css/User/faq.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="homepage">
+    <div class="homepage-0">
+      <div class="headerBody">
+        <div class="navbar">
+          <div class="menu">
+            <div class="component-2">
+              <div class="nav-item">
+                <a href="homepage.html" style="text-decoration: none; color: inherit;">
+                  <div class="text">Home</div>
+                  <img class="line" src="line0.svg" />
+                </a>
+              </div>
+              <div class="nav-item2">
+                <a href="../support/faq.html" style="text-decoration: none; color: inherit;">
+                  <div class="text2">FAQ</div>
+                  <img class="line2" src="line1.svg" />
+                </a>
+              </div>
+              <div class="nav-item3">
+                <a href="../orders/api_keys.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">API</div>
+                  <img class="line3" src="line2.svg" />
+                </a>
+              </div>
+              <div class="nav-item4">
+                <a href="../support/how_to_use.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">How to buy?</div>
+                  <img class="line4" src="line3.svg" />
+                </a>
+              </div>
+              <div class="nav-item5">
+                <a href="../orders/free_phone_list.html" style="text-decoration: none; color: inherit;">
+                  <div class="text3">Free</div>
+                  <img class="line5" src="line4.svg" />
+                </a>
+              </div>
+            </div>
+            <div class="component-1">
+              <a href="../auth/login.html" class="button" style="text-decoration: none" role="button">
+                <div class="style-layer">
+                  <span class="button-text">Login</span>
+                </div>
+              </a>
+              <a href="../auth/register.html" class="button" style="text-decoration: none" role="button">
+                <div class="style-layer">
+                  <span class="button-text">Sign up</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <img class="rectangle-1740" src="rectangle-17400.png" />
+        </div>
+
+
+
+
+
+
+        <div class="leftbar">
+          <div class="SMS">
+            <div class="SMSDelivery">SMS Delivery</div>
+            <a href="../support/faq.html">
+              <button class="buttonSMSDelivery" aria-label="Help">
+                <div class="style-layer">
+                  <span class="button-textSMSDelivery">?</span>
+                </div>
+              </button>
+            </a>
+          </div>
+          <div class="services">
+            <div class="service-header">
+              <div class="name-service">
+                <div class="_1-select-service">1. Select service</div>
+                <div class="component-9">
+                  <div class="component-7"></div>
+                  <div class="component-8">
+                    <div class="sort-low-to-high">
+                      <span>
+                        <span class="sort-low-to-high-span">Sort by:</span>
+                        <select class="service-sort-dropdown" aria-label="Sort services">
+                          <option value="number_of_numbers">number of numbers</option>
+                          <option value="price">price</option>
+                          <option value="success_rate">success rate</option>
+                          <option value="name">name</option>
+                        </select>
+                      </span>
+                    </div>
+                    <img class="vector" src="vector0.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="bi bi-search search-icon" style="    position: absolute; top: 56px; left: 28px;"></i>
+              </div>
+            </div>
+
+            <!-- Phần danh sách dịch vụ -->
+            <div class="services-container">
+              <div class="all-services" id="all-services">
+                {% if services %}
+                {% for service in services %}
+                <div class="service">
+                  <button class="star-icon" aria-label="Favorite service" title="Favorite service">&#9733;</button>
+                  <div class="service-content">
+                    <div class="left-side">
+                      <div class="vietnam">{{ service.name }}</div>
+                      <div class="already-use-43-435">
+                        success rate: {{ "%.1f"|format(service.success_rate * 100) }}%
+                      </div>
+                    </div>
+                    <div class="right-side">
+                      <div class="price">
+                        <div class="_21-267-numbers">
+                          {{ (service.popularity * 1000)|round|int }} numbers
+                        </div>
+                        <div class="from-1-90">from ${{ "%.2f"|format(service.current_price) }}</div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <button class="add-button" aria-label="Add service" title="Add service"></button>
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="alert alert-warning">No services found</div>
+                {% endif %}
+              </div>
+
+              <!-- Phần show all -->
+              {% if services|length > 4 %}
+              <div class="show-all" id="show-all-services" data-target="all-services">
+                <div class="show-all-259">Lock scroll ({{ total_services }})</div>
+
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="title">
+          <div class="rectangle-88"></div>
+          <div class="title2">Virtual Numbers for Receiving SMS Codes</div>
+          <div class="title3">
+            <span>
+              <span class="title-3-span">SMS</span>
+              <span class="title-3-span2">SimNet</span>
+            </span>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="select-country">
+          <div class="name-service">
+            <div class="_1-select-service">2. Select Country</div>
+            <div class="component-9">
+              <div class="component-7"></div>
+              <div class="component-8">
+                <div class="sort-low-to-high">
+                  <span>
+                    <span class="sort-low-to-high-span">Sort by:</span>
+                    <select class="country-sort-dropdown" aria-label="Sort countries">
+                      <option value="name_country">Name </option>
+                      <option value="available_services">Available services</option>
+                    </select>
+                  </span>
+                </div>
+                <img class="vector" src="vector7.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <i class="bi bi-search search-icon" style="    position: absolute; top: 56px; left: 28px;"></i>
+          </div>
+          <!-- Phần danh sách country -->
+          <div class="all-country" id="all-country">
+            {% if countries %}
+            {% for country in countries %}
+            <div class="service">
+              <button class="star-icon" aria-label="Favorite country" title="Favorite country">&#9733;</button>
+              <div class="service-content">
+                <div class="left-sidecountry" style="display:flex; align-items:center;">
+                  <img src="{{ country.flag_icon }}" alt="{{ country.name }} flag"
+                    style="width:24px; height:16px; margin-right:8px;" />
+                  <span class="countryName">{{ country.name }}</span>
+                </div>
+                <div class="right-sidecountry">
+                  <div class="available-services-count">
+                    Available services: {{ country.available_services | length }}
+                  </div>
+                </div>
+              </div>
+              <button class="add-button" aria-label="Add country" title="Add country"></button>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="alert alert-warning">No countries found</div>
+            {% endif %}
+          </div>
+
+          <!-- Phần show all -->
+          {% if countries|length > 4 %}
+          <div class="show-allcountry" id="show-all-country" data-target="all-country">
+            <div class="show-all-259">Lock scroll ({{ total_countries }})</div>
+          </div>
+          {% endif %}
+        </div>
+
+
+
+
+
+
+        <div class="my-project">
+          <div class="select-project">
+            <div class="search-box3">
+              <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="bi bi-search search-icon" style="    position: absolute; top: 56px; left: 28px;"></i>
+              </div>
+              <div class="show-all2"></div>
+              <div class="name-service">
+                <div class="_1-select-service">3. My project</div>
+                <div class="component-9">
+                </div>
+              </div>
+            </div>
+
+            <div class="component-224">
+              <div class="add-project">
+                <div class="form">
+                  <div class="text-wrap">
+                    <select class="my-project2" name="project">
+                      <option value="" disabled hidden>{{ selected_project_name }}</option>
+                      <option value="project1">Project 1</option>
+                      <option value="project2">Project 2</option>
+                      <option value="project3">Project 3</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="button" style="width: max-content">
+                  <div class="style-layer" style="width: max-content">
+                    <span class="button-text">Add Project</span>
+                  </div>
+                </button>
+              </div>
+              <div class="form">
+                <div class="text-wrap">
+                  <select class="specify-area-code-select" name="area_code">
+                    <option value="" selected disabled hidden>Specify area code</option>
+                    <option value="800">800</option>
+                    <option value="801">801</option>
+                    <option value="802">802</option>
+                    <option value="803">803</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection-method">
+            <div class="collection-method2">
+              Collection method
+              <br />
+            </div>
+            <div class="collection-method3">
+              <div class="collection-method-radio-inputs">
+                <label class="radio-label">
+                  <input type="radio" name="collection_method" value="default" checked />
+                  <span class="custom-radio">
+                    <span class="ellipse-4"></span>
+                  </span>
+                  Default number
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="collection_method" value="designated" />
+                  <span class="custom-radio">
+                    <span class="ellipse-42"></span>
+                  </span>
+                  Designated number
+                </label>
+                <input type="text" class="designated-number-input" placeholder="enter number designated" />
+              </div>
+            </div>
+          </div>
+          <div class="button4">
+            <div class="captgion3">GET NUMBER</div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="rightside">
+          <div class="faq-section">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+              <div class="search-container" style ="  left: 494px; top: -28px; position: absolute;">
+                <input type="text" class="search-input" placeholder="Search...">
+                <i class="bi bi-search search-icon" style="    position: absolute; top: 56px; left: 28px;"></i>
+              </div>
+  <!-- Phần show câu hỏi pop up -->
+
+<div id="faq-popup" style="
+  display: none;
+  position: absolute;
+  top: 97px; /* sẽ bị JavaScript cập nhật lại */
+  left: 544px;
+  background: white;
+  color: black;
+  border: 2px solid #339c9c;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  max-width: 400px;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+">
+  Nội dung popup ở đây
+</div>
+
+
+
+  <!-- Phần list câu hỏi -->
+            <div class="faq-category">
+              <h3>General Questions</h3>
+              <ul>
+                <li>When new numbers are added?</li>
+                <li>The created account was banned after a while</li>
+                <li>There are numbers on the website but they can't be bought</li>
+                <li>What are temporary disposable numbers means?</li>
+                <li>Phone number with long-term use</li>
+              </ul>
+            </div>
+
+            <div class="faq-category">
+              <h3>Balance Replenishment</h3>
+              <ul>
+                <li>How to replenish the balance of the 5SIM account?</li>
+                <li>Payment fee</li>
+                <li>The money was not credited to the account balance</li>
+                <li>How to withdraw money from 5SIM account?</li>
+                <li>Transfer of funds to another 5SIM account</li>
+                <li>Low rating, not enough money</li>
+              </ul>
+            </div>
+
+            <div class="faq-category">
+              <h3>Registration, Login, Email</h3>
+              <ul>
+                <li>I can't create a 5SIM account</li>
+                <li>I can't login to 5SIM with my login and password</li>
+                <li>How to change email of the 5SIM account?</li>
+                <li>What to do if my account was hacked?</li>
+              </ul>
+            </div>
+
+            <div class="faq-category">
+              <h3>SMS, Verification Codes</h3>
+              <ul>
+                <li>What to do if SMS does not arrive</li>
+                <li>Incorrect confirmation code</li>
+                <li>The phone number has already been used</li>
+                <li>How do I receive verification code again?</li>
+                <li>How to verify via a call?</li>
+                <li>How to receive a call and a code from a voice bot?</li>
+              </ul>
+            </div>
+
+            <div class="faq-category">
+              <h3>API Information</h3>
+              <ul>
+                <li>How to find API key?</li>
+                <li>Purchase of numbers via API</li>
+                <li>IP was blocked</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Social Support Buttons -->
+          <div class="social-support">
+            <div class="social-buttonAll">
+              <span>Support:</span>
+              <a href="https://facebook.com" class="social-button" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+              </a>
+              <a href="https://discord.com" class="social-button" target="_blank">
+                <i class="fab fa-discord"></i> Discord
+              </a>
+              <a href="https://x.com" class="social-button" target="_blank">
+                <i class="fab fa-x-twitter"></i> X
+              </a>
+              <a href="https://telegram.org" class="social-button" target="_blank">
+                <i class="fab fa-telegram"></i> Telegram
+              </a>
+            </div>
+          </div>
+
+
+          </ul>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <div class="rectangle-1737"></div> <!-- Background decoration -->
+
+      <div class="info-block">
+        <!-- Company Info Section -->
+        <div class="company-details-icon">
+          <div class="title4">
+            <span>
+              <span class="title-4-span">SMS</span>
+              <span class="title-4-span2"></span>
+              <span class="title-4-span">SimNet</span>
+            </span>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="social-media-icon">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-discord fa-2x"></i>
+            <i class="fab fa-telegram fa-2x"></i>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="address-123-654-987-877-the-bronx-ny-14568-usa">
+            <span>
+              <span class="address-123-654-987-877-the-bronx-ny-14568-usa-span">
+                Address
+                <br />
+              </span>
+              <span class="address-123-654-987-877-the-bronx-ny-14568-usa-span2">
+                +123 654 987
+                <br />
+                877 The Bronx, NY
+                <br />
+                14568, USA
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="info">
+          <div class="my-account">User Portal</div>
+          <div class="sign-in-register-order-status">
+            Sign in
+            <br />
+            Register
+            <br />
+            Service status
+          </div>
+        </div>
+
+        <div class="info2">
+          <div class="help">Support</div>
+          <div class="shipping-returns-sizing">
+            Documentation
+            <br />
+            API Reference
+            <br />
+            FAQ
+          </div>
+        </div>
+
+        <div class="info3">
+          <div class="shop">Services</div>
+          <div class="all-products-bedroom-dinning-room">
+            All Numbers
+            <br />
+            Country Coverage
+            <br />
+            Pricing
+          </div>
+        </div>
+
+        <div class="info4">
+          <div class="legal-stuff">Legal</div>
+          <div class="shipping-delivery-terms-conditions-privacy-policy">
+            Terms of Service
+            <br />
+            Acceptable Use
+            <br />
+            Privacy Policy
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </div>
+  <img class="rectangle-1740" src="../../../static/img/logo.jpg" />
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../static/js/app.js"></script>
+</body>
+<script>
+const popup = document.getElementById("faq-popup");
+const faqItems = document.querySelectorAll(".faq-category ul li");
+
+const faqAnswers = {
+  "When new numbers are added?": "New numbers are typically added daily depending on availability.",
+    "The created account was banned after a while": "This may be due to a policy violation or suspicious activity.",
+    "There are numbers on the website but they can't be bought": "Some numbers may be reserved or temporarily unavailable.",
+    "What are temporary disposable numbers means?": "These numbers can be used for one-time verifications.",
+    "Phone number with long-term use": "Long-term numbers are intended for extended verification and usage.",
+  // Thêm các câu khác nếu muốn
+};
+
+faqItems.forEach(item => {
+  item.addEventListener("click", () => {
+    const question = item.innerText;
+    const answer = faqAnswers[question] || "No info for this question.";
+
+    popup.innerText = answer;
+
+    // Tính vị trí so với container (do container đã set position: relative)
+    popup.style.top = item.offsetTop + item.offsetHeight - 16 + "px"; // 6px là khoảng cách dưới <li>
+    popup.style.left = "544px"; // giữ nguyên theo yêu cầu
+    popup.style.display = "block";
+  });
+});
+
+
+
+  // Hide popup when clicking outside
+  document.addEventListener("click", function(e) {
+    if (!popup.contains(e.target) && ![...faqItems].includes(e.target)) {
+      popup.style.display = "none";
+    }
+  });
+</script>
+
+
+
+</html>

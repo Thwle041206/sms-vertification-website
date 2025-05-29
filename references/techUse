@@ -1,0 +1,5 @@
+Sử dụng Jinja2 template (recommended nếu bạn dùng Flask/FastAPI template)
+
+http://localhost:8000/
+http://localhost:8000/homepage
+http://127.0.0.1:8000  

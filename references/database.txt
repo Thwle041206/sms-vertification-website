@@ -1,0 +1,144 @@
+1. Users Collection
+{
+  _id: ObjectId,
+  username: String,
+  email: { type: String, unique: true },
+  password: String,
+  phone: String,
+  balance: { type: Number, default: 0 },
+  api_key: String,
+  registration_date: Date,
+  last_login: Date,
+  status: { type: String, enum: ['active', 'suspended'], default: 'active' },
+  ip_history: [String],
+  verification_level: { type: Number, default: 0 }
+}
+
+2. Countries Collection
+{
+  _id: ObjectId,
+  name: String,
+  code: String,
+  flag_icon: String,
+  is_active: Boolean,
+  phone_code: String,
+  available_services: [ObjectId] // References to Services
+}
+
+
+3. Services Collection
+{
+  _id: ObjectId,
+  name: String, // "Telegram", "WhatsApp", etc.
+  icon: String,
+  base_price: Number,
+  current_price: Number,
+  available_countries: [ObjectId], // References to Countries
+  success_rate: Number,
+  popularity: Number,
+  is_free_allowed: Boolean,
+  free_daily_limit: Number
+}
+
+4. PhoneNumbers Collection
+{
+  _id: ObjectId,
+  number: String,
+  country_id: ObjectId,
+  service_id: ObjectId,
+  provider: String,
+  is_active: Boolean,
+  is_used: Boolean,
+  current_user: ObjectId, // Null if available
+  expiration_time: Date,
+  last_used: Date,
+  sms_received: [{
+    content: String,
+    timestamp: Date,
+    from: String
+  }]
+}
+
+5. Orders Collection
+{
+  _id: ObjectId,
+  user_id: ObjectId,
+  service_id: ObjectId,
+  country_id: ObjectId,
+  phone_number_id: ObjectId,
+  price: Number,
+  status: { type: String, enum: ['pending', 'active', 'completed', 'failed'] },
+  start_time: Date,
+  end_time: Date,
+  verification_code: String,
+  ip_address: String
+}
+
+
+6. Projects Collection (User projects)
+{
+  _id: ObjectId,
+  user_id: ObjectId,
+  name: String,
+  description: String,
+  default_country: ObjectId,
+  default_service: ObjectId,
+  area_code: String,
+  created_at: Date,
+  api_calls: Number
+}
+
+7. Transactions Collection
+{
+  _id: ObjectId,
+  user_id: ObjectId,
+  amount: Number,
+  type: { type: String, enum: ['deposit', 'withdrawal', 'purchase'] },
+  status: { type: String, enum: ['pending', 'completed', 'failed'] },
+  payment_method: String,
+  payment_details: Object,
+  timestamp: Date,
+  order_id: ObjectId // Optional, for purchase transactions
+}
+
+8. APIKeys Collection - Not Yet 
+{
+  _id: ObjectId,
+  user_id: ObjectId,
+  key: String,
+  name: String,
+  created_at: Date,
+  last_used: Date,
+  is_active: Boolean,
+  rate_limit: Number,
+  ip_restrictions: [String]
+}
+
+9. SMSLogs Collection - Not Yet 
+{
+  _id: ObjectId,
+  phone_number_id: ObjectId,
+  order_id: ObjectId,
+  content: String,
+  sender: String,
+  received_at: Date,
+  delivered_at: Date,
+  status: { type: String, enum: ['received', 'forwarded', 'failed'] }
+}
+
+
+10. Pricing Collection
+{
+  _id: ObjectId,
+  country_id: ObjectId,
+  service_id: ObjectId,
+  base_price: Number,
+  current_price: Number,
+  bulk_discounts: [{
+    min_quantity: Number,
+    price_per: Number
+  }],
+  last_updated: Date
+}
+///////////////////////////////////
+thêm favourite service - user 
