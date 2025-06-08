@@ -29,9 +29,6 @@ This project is a web-based platform that allows users to register, log in, top 
 👉 View the full interface and prototype on Figma here:  
 [🔗 Figma Design Link] https://www.figma.com/design/tcpEzYRmL0B7NiR1YlhDqh/SMS-WebApp?node-id=0-1&t=3LOgFBeEvj8JUBjw-1
 
-*(Please replace the link above with your actual Figma file URL.)*
-
----
 
 ## 🛠️ Tech Stack
 
